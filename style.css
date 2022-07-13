@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Oswald';
+}
+
+body {
+    background-color: aliceblue
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-size: 30px;
+}
+
+p {
+    font-size: 100%;
+    font-style: bold;
+
+}
+
+footer {
+    border-top: 2px solid pink
+}
+
+a {
+    text-decoration: none;
+    padding: 1%;
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+.nav {
+    display: block;
+    font-family: 'Oswald';
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid pink;
+    padding: 1%;
+}
+
+.projects {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+    margin-bottom: 5%;
+}
+
+.projects:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    line-height: 20px;
+    font-weight: bold;
+    font-family: 'Oswald';
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 2px solid pink;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cover {
+    display: block;
+    text-align: center;
+    margin-top: 30%;
+    border-bottom: 2px solid pink;
+}
+
+.dinosaur {
+    width: 30%;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    padding: 2px;
+}
+
+.contact {
+    border-top: 2px solid pink
+}
+
+.footer {
+    text-align: center;
+    padding: 1%;
+}
+
+.email {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
